@@ -1,0 +1,348 @@
+/*!
+Web Designer: BigMic69
+Webpage: MCCGraphics.info
+*/
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif|Playfair+Display|Ubuntu");
+/* line 95, ../sass/parts/_toolbox.sass */
+h1 {
+  font-size: 2em;
+}
+@media (min-width: 700px) {
+  /* line 95, ../sass/parts/_toolbox.sass */
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+/* line 99, ../sass/parts/_toolbox.sass */
+h2 {
+  font-size: 1.75em;
+}
+@media (min-width: 700px) {
+  /* line 99, ../sass/parts/_toolbox.sass */
+  h2 {
+    font-size: 2.25em;
+  }
+}
+
+/* line 103, ../sass/parts/_toolbox.sass */
+h3 {
+  font-size: 1.25em;
+}
+@media (min-width: 700px) {
+  /* line 103, ../sass/parts/_toolbox.sass */
+  h3 {
+    font-size: 2em;
+  }
+}
+
+/* line 107, ../sass/parts/_toolbox.sass */
+h4 {
+  font-size: 1.25em;
+}
+@media (min-width: 700px) {
+  /* line 107, ../sass/parts/_toolbox.sass */
+  h4 {
+    font-size: 1.75em;
+  }
+}
+
+/* line 111, ../sass/parts/_toolbox.sass */
+h5 {
+  font-size: 1em;
+}
+@media (min-width: 700px) {
+  /* line 111, ../sass/parts/_toolbox.sass */
+  h5 {
+    font-size: 1.5em;
+  }
+}
+
+/* line 115, ../sass/parts/_toolbox.sass */
+a,
+p {
+  font-size: 1em;
+}
+@media (min-width: 700px) {
+  /* line 115, ../sass/parts/_toolbox.sass */
+  a,
+  p {
+    font-size: 1.5em;
+  }
+}
+
+/* line 1, ../sass/parts/_base.sass */
+* {
+  font-size: 16px;
+  line-height: 1.8em;
+  letter-spacing: 1.2px;
+  box-sizing: border-box;
+}
+
+/* line 6, ../sass/parts/_base.sass */
+html {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 9, ../sass/parts/_base.sass */
+body {
+  font-family: Ubuntu;
+}
+
+/* line 12, ../sass/parts/_base.sass */
+#pageContainer {
+  width: 98%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background: #666;
+  background-image: url("../img/wp-quickscope.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 1, ../sass/parts/_header.sass */
+.header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* line 4, ../sass/parts/_header.sass */
+.header img {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 1, ../sass/parts/_accordion.sass */
+#accordion {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+@media (min-width: 700px) {
+  /* line 1, ../sass/parts/_accordion.sass */
+  #accordion {
+    width: 60%;
+  }
+}
+
+/* line 9, ../sass/parts/_accordion.sass */
+.panel-heading {
+  margin: 1vh 0 0;
+  padding: 0;
+  background: #888;
+}
+/* line 13, ../sass/parts/_accordion.sass */
+.panel-heading .panel-title {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #333;
+}
+/* line 16, ../sass/parts/_accordion.sass */
+.panel-heading .panel-title a {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  padding: 0 1em;
+  color: #f1f1f1;
+  font-size: 1em;
+  text-decoration: none;
+  border-left: 3px solid #f1f1f1;
+}
+/* line 25, ../sass/parts/_accordion.sass */
+.panel-heading .panel-title a:hover {
+  color: #e33d00;
+  border-left: 3px solid #e33d00;
+}
+@media (min-width: 700px) {
+  /* line 16, ../sass/parts/_accordion.sass */
+  .panel-heading .panel-title a {
+    height: 7vh;
+  }
+}
+
+/* line 31, ../sass/parts/_accordion.sass */
+.panel-colapse,
+.collapse,
+.in {
+  margin-bottom: 5px;
+  border: 2px solid #e33d00;
+}
+
+/* line 38, ../sass/parts/_accordion.sass */
+.panel-body {
+  width: 100%;
+  height: 62vh;
+  margin: 5px auto;
+  padding: 5px;
+  overflow-y: auto;
+  background: #23232D;
+}
+@media (min-width: 700px) {
+  /* line 38, ../sass/parts/_accordion.sass */
+  .panel-body {
+    height: 72vh;
+    padding: 5px;
+  }
+}
+/* line 51, ../sass/parts/_accordion.sass */
+.panel-body .locate {
+  text-decoration: none;
+  list-style: none;
+}
+/* line 53, ../sass/parts/_accordion.sass */
+.panel-body .banner {
+  width: 100%;
+  height: 20vh;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+@media (min-width: 700px) {
+  /* line 53, ../sass/parts/_accordion.sass */
+  .panel-body .banner {
+    height: 30vh;
+  }
+}
+/* line 61, ../sass/parts/_accordion.sass */
+.panel-body .banner img {
+  width: 100%;
+}
+/* line 63, ../sass/parts/_accordion.sass */
+.panel-body iframe {
+  width: 94%;
+  margin: 0 auto;
+}
+@media (min-width: 700px) {
+  /* line 63, ../sass/parts/_accordion.sass */
+  .panel-body iframe {
+    width: 60%;
+  }
+}
+
+/* line 70, ../sass/parts/_accordion.sass */
+.title-container {
+  margin: 5px 0 5vh;
+  padding: 0;
+  color: #f2f2f2;
+  background: linear-gradient(rgba(227, 61, 0, 0.7) 5%, #23232d 85%);
+}
+/* line 75, ../sass/parts/_accordion.sass */
+.title-container .title {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* line 77, ../sass/parts/_accordion.sass */
+.title-container .title h2 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 1px 1px #232323;
+}
+
+/* line 85, ../sass/parts/_accordion.sass */
+.img-group-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+@media (min-width: 700px) {
+  /* line 85, ../sass/parts/_accordion.sass */
+  .img-group-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/* line 91, ../sass/parts/_accordion.sass */
+.img-group-container img {
+  width: 100%;
+  display: block;
+}
+
+/* line 96, ../sass/parts/_accordion.sass */
+.box {
+  display: block;
+}
+/* line 98, ../sass/parts/_accordion.sass */
+.box .text-fill {
+  display: flex;
+  margin: 0 0 10px;
+  padding: 10px 5px 5px;
+  background: #e3e3e3;
+  border: 1px solid #333;
+  border-top: none;
+}
+
+/* line 108, ../sass/parts/_accordion.sass */
+.text-section2 {
+  color: #f2f2f2;
+}
+
+/* line 113, ../sass/parts/_accordion.sass */
+.social-icons-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (min-width: 700px) {
+  /* line 113, ../sass/parts/_accordion.sass */
+  .social-icons-group {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+@media (min-width: 1000px) {
+  /* line 113, ../sass/parts/_accordion.sass */
+  .social-icons-group {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+/* line 123, ../sass/parts/_accordion.sass */
+.social-icons-group a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* line 125, ../sass/parts/_accordion.sass */
+.social-icons-group a img {
+  width: 100%;
+  margin: 5px 0;
+  text-decoration: none;
+  border: 1px solid #333;
+  box-shadow: 1px 1px 5px #e33d00;
+  transition: 0.5s ease 0.05s;
+}
+/* line 132, ../sass/parts/_accordion.sass */
+.social-icons-group a img:hover {
+  transform: scale(0.8);
+}
+
+/* line 136, ../sass/parts/_accordion.sass */
+.video-container {
+  width: 100%;
+  margin: 20px auto 20vh;
+}
+@media (min-width: 700px) {
+  /* line 136, ../sass/parts/_accordion.sass */
+  .video-container {
+    width: 60%;
+  }
+}
+/* line 141, ../sass/parts/_accordion.sass */
+.video-container video {
+  width: 100%;
+}
